@@ -81,13 +81,13 @@ class MqttConnectMessage extends MqttMessage {
 
   /// Sets the Will Qos.
   MqttConnectMessage withWillQos(MqttQos qos) {
-    _variableHeader!.connectFlags.willQos = qos;
+    // _variableHeader!.connectFlags.willQos = qos;
     return this;
   }
 
   /// Sets the Will retain flag.
   MqttConnectMessage withWillRetain() {
-    _variableHeader!.connectFlags.willRetain = true;
+    // _variableHeader!.connectFlags.willRetain = true;
     return this;
   }
 
